@@ -18,6 +18,6 @@ WORKDIR /usr/src/app/
 EXPOSE 5000
 
 #Make the command that runs on start
-CMD hello.py
+CMD python3 hello.py
 
 
